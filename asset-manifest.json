@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.0261f665.css",
+    "main.js": "/portfolio-react/static/js/main.f7d0a052.js",
+    "static/css/414.c5443265.chunk.css": "/portfolio-react/static/css/414.c5443265.chunk.css",
+    "static/js/414.123b952c.chunk.js": "/portfolio-react/static/js/414.123b952c.chunk.js",
+    "static/css/333.0fc55f09.chunk.css": "/portfolio-react/static/css/333.0fc55f09.chunk.css",
+    "static/js/333.261d18fc.chunk.js": "/portfolio-react/static/js/333.261d18fc.chunk.js",
+    "static/css/918.6d9594f4.chunk.css": "/portfolio-react/static/css/918.6d9594f4.chunk.css",
+    "static/js/918.e767b3dd.chunk.js": "/portfolio-react/static/js/918.e767b3dd.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-react/static/js/787.1ed0c42c.chunk.js",
+    "static/js/831.698e17ab.chunk.js": "/portfolio-react/static/js/831.698e17ab.chunk.js",
+    "static/js/363.c3b54803.chunk.js": "/portfolio-react/static/js/363.c3b54803.chunk.js",
+    "static/js/998.7fac440d.chunk.js": "/portfolio-react/static/js/998.7fac440d.chunk.js",
+    "index.html": "/portfolio-react/index.html",
+    "main.0261f665.css.map": "/portfolio-react/static/css/main.0261f665.css.map",
+    "main.f7d0a052.js.map": "/portfolio-react/static/js/main.f7d0a052.js.map",
+    "414.c5443265.chunk.css.map": "/portfolio-react/static/css/414.c5443265.chunk.css.map",
+    "414.123b952c.chunk.js.map": "/portfolio-react/static/js/414.123b952c.chunk.js.map",
+    "333.0fc55f09.chunk.css.map": "/portfolio-react/static/css/333.0fc55f09.chunk.css.map",
+    "333.261d18fc.chunk.js.map": "/portfolio-react/static/js/333.261d18fc.chunk.js.map",
+    "918.6d9594f4.chunk.css.map": "/portfolio-react/static/css/918.6d9594f4.chunk.css.map",
+    "918.e767b3dd.chunk.js.map": "/portfolio-react/static/js/918.e767b3dd.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-react/static/js/787.1ed0c42c.chunk.js.map",
+    "831.698e17ab.chunk.js.map": "/portfolio-react/static/js/831.698e17ab.chunk.js.map",
+    "363.c3b54803.chunk.js.map": "/portfolio-react/static/js/363.c3b54803.chunk.js.map",
+    "998.7fac440d.chunk.js.map": "/portfolio-react/static/js/998.7fac440d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0261f665.css",
+    "static/js/main.f7d0a052.js"
+  ]
+}
