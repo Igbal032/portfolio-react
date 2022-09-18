@@ -1,0 +1,109 @@
+.aboutDiv {
+    height: 1000px;
+    background: #6f7a8a;
+}
+
+.aboutDiv .img {
+    height: 1155px;
+    width: 600px;
+    background: purple;
+    opacity: 0.5;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+.aboutDiv2 {
+    height: 1000px;
+    background-image: url("https://c0.wallpaperflare.com/preview/843/976/970/business-background-illustration-people.jpg");
+}
+
+.nameRow {
+    display: flex;
+    justify-content: end;
+    padding-top: 210px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nameRow h1 {
+    font-size: 80px;
+}
+
+.nameRow p{
+    margin-top: 50px;
+    font-size: 25px;
+    
+}
+
+.aboutRow{
+    justify-content: center;
+    position: relative;
+}
+
+.aboutRow .aboutCol {
+    display: flex;
+    justify-content: center;
+    background: #333b50;
+    position: absolute;
+    height: max-content;
+    top: 11%;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+.logoRow{
+    justify-content: center;
+}
+
+.aboutTextContent{
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+}
+.aboutTextContent p{
+    width: 70%;
+    color: white;
+    line-height: 2;
+}
+
+.logoDiv{
+    align-items: center;
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    width: 100px;
+    box-shadow: 4px 0px 1px -1px #00d646;
+    height: 100px;
+}
+
+
+.logoAlfa{
+    color: #00d646;
+    font-weight: bold;
+}
+
+.dwnResumeButton{
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.dwnResumeButton button{
+    width: 100%;
+    color: white;
+    height: 49px;
+    background-color: transparent;
+    border: 1px solid green;
+}
+.dwnResumeButton button a{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 420px) {
+    .nameRow h1{
+        font-size: 40px;
+    }
+
+    
+}

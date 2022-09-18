@@ -1,0 +1,42 @@
+.mainDiv{
+    min-height: 100px;
+    background: #333b50;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    width: 70%;
+}
+
+.logoRow{
+    justify-content: center;
+}
+
+
+.logoDiv{
+    align-items: center;
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    width: 60px;
+    box-shadow: 4px 0px 1px -1px #00d646;
+    height: 60px;
+}
+
+
+.logoAlfa{
+    color: #00d646;
+    font-weight: bold;
+}
+
+.publishText{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+

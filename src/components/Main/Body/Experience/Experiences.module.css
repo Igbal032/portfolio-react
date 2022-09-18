@@ -1,0 +1,66 @@
+.experiencesBgImage {
+    box-shadow: 0px -9px 69px 0px #00d646;
+    min-height: 800px;
+    padding-bottom: 26%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://static.wixstatic.com/media/035244_1f9f5504879f46cc90c68e323a18ea59~mv2_d_1920_3986_s_2.jpg/v1/fill/w_1899,h_3636,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/035244_1f9f5504879f46cc90c68e323a18ea59~mv2_d_1920_3986_s_2.jpg);
+}
+
+.experienceRow {
+    justify-content: center;
+    margin-top: 100px;
+    min-height: max-content;
+    position: relative;
+    margin: 0 auto;
+}
+
+.experienceRow > div{
+    margin-top: 20px;
+}
+
+.experienceRow:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    bottom: 600px;
+    width: 6px;
+    height: 100%;
+    background-color: #00d646;
+}
+
+
+@media screen and (max-width: 600px) {
+    .experienceRow{
+        justify-content: unset;
+    }
+
+    .experienceRow:after{
+        left: 0;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .experiencesBgImage {
+        padding-bottom: 41%;
+    }
+}
+@media screen and (min-width: 381px) and (max-width: 599px){
+    .experiencesBgImage {
+        padding-bottom: 60%;
+    }
+}
+@media screen and (min-width: 250px) and (max-width: 380px){
+    .experiencesBgImage {
+        padding-bottom: 100%;
+    }
+}
+@media screen and (max-width: 250px){
+    .experiencesBgImage {
+        padding-bottom: 120%;
+    }
+}

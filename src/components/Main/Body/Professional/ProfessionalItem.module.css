@@ -1,0 +1,47 @@
+.profItem{
+    display: flex;
+    justify-content: space-around;    
+}
+.skillname{
+    width: 15%;
+}
+.profItem .skillname label{
+    color: white;
+    margin: 5px;
+}
+.processingBar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.processingBar .skillBar{
+    height: 40%;
+    width: 0%;
+    background-color: #00d646;
+    transition: width 4s;
+}
+
+.processingBar .skillPersentageLabel{
+    color: white;
+    width: 70px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 560px) {
+    .profItem .skillname label{
+        word-break: break-word;
+    }
+}
+@media screen and (max-width: 500px) {
+    .profItem {
+        display: unset;
+    }
+    .processingBar .skillBar{
+        height: 20px;
+    }
+    .profItem .skillname{
+        width: unset;
+    }
+}

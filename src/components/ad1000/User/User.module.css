@@ -1,0 +1,14 @@
+.table{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+    margin: 0 auto;
+    width: 95%;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.buttonDiv button{
+    width: 200px;
+}
+
