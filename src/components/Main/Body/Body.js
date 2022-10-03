@@ -5,13 +5,13 @@ import Experiences from "./Experience/Experiences";
 import Footer from "./Footer/Footer";
 import Professional from "./Professional/Professionals";
 
-const Body = () => {
+const Body = (props) => {
   return (
     <Fragment>
-      <About />
-      <Professional />
-      <Experiences />
-      <Contact />
+      <About refer={props.homeRef} />
+      <Professional refer={props.professinalRef} />
+      <Experiences refer={props.expRef} />
+      <Contact refer={props.contactRef} />
       <Footer />
     </Fragment>
   );

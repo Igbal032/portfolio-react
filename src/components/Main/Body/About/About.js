@@ -5,13 +5,13 @@ import { useSelector } from "react-redux/es/exports";
 
 
 
-const About = () => {
+const About = (props) => {
 
   const user = useSelector((state) => state.user.user);
   const cvbase64 = useSelector((state) => state.user.cvBase64);
 
   return (
-      <div className={classes.aboutDiv}>
+      <div className={classes.aboutDiv}  ref={props.refer}>
         <Row className={classes.nameRow}>
           <Col sm={12} md={9} lg={8}>
             <h1>I'M</h1>

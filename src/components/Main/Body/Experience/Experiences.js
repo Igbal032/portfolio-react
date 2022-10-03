@@ -4,12 +4,12 @@ import { Col, Container, Row } from "react-bootstrap";
 import ExperienceItem from "./ExperienceItem";
 import classes from "./Experiences.module.css";
 
-const Experiences = () => {
+const Experiences = (props) => {
   const experiencess = useSelector((state) => state.exps.experiences);
   return (
     <Fragment>
       <Container fluid={true} className={classes.experiencesBgImage}>
-        <Row className={classes.experienceRow}>
+        <Row className={classes.experienceRow}  ref={props.refer}>
           {experiencess.map((experience, key) => (
             <Col lg={7} md={7} xs={12} key={experience._id}>
               <ExperienceItem

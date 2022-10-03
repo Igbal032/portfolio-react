@@ -4,7 +4,7 @@ import useInput from "../../../../hooks/use-input";
 import Swal from "sweetalert2";
 import classes from "./Contact.module.css";
 import {createMessage } from "../../../../store/message-action";
-const Contact = () => {
+const Contact = (props) => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user.user);
   const {
@@ -81,7 +81,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={classes.contactDiv} id="#contact">
+    <div className={classes.contactDiv} id="#contact"  ref={props.refer}>
       <Container fluid={true} className={classes.contactSection}>
         <Row className={classes.contactRow}>
           <Col lg={6} md={6} xs={11} className={classes.contactCol}>

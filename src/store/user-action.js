@@ -86,16 +86,19 @@ export const editUser = (user) => {
 
 export const getCvBase64 = () => {
   return async (dispatch) => {
+
     const getData = async () => {
-      const res = await fetch("https://igbalportfolio.herokuapp.com/upload");
+      const res = await fetch("https://igbalportfolio.herokuapp.com/ad1000/upload");
       if (!res.ok) {
         return;
       }
+    console.log("dasdsa ")
       const data = await res.json();
       return data;
     };
     try {
       const data = await getData();
+      console.log(data)
       dispatch(userActions.setCvBase64({ base64: data.base64 }));
     } catch (error) {
       console.log(error);

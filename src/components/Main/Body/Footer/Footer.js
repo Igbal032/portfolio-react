@@ -14,7 +14,7 @@ const Footer = () => {
             </Row>
           </Col>
           <Col lg={9} md={9} xs={12}>
-            <p className={classes.publishText}>© 2023 by Robert Caro. Proudly created with Wix.com</p>
+            <p className={classes.publishText}>© 2023 by Igbal Hasanli</p>
           </Col>
         </Row>
       </Container>
