@@ -7,6 +7,7 @@ import {createMessage } from "../../../../store/message-action";
 const Contact = (props) => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user.user);
+  
   const {
     value: enteredEmail,
     valueIsValid: emailIsValid,
